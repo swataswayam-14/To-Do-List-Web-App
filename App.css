@@ -1,0 +1,59 @@
+.todoInput {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #daabe0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-task {
+    width: 579px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    background-color: #e5b9b9;
+  }
+  
+  .button-add {
+    
+    width: 15%;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: rgb(118, 49, 118);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(183, 232, 207)
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  li.checked {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
